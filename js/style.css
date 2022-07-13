@@ -1,0 +1,129 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.hidden {
+  display: none !important;
+}
+
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+h1 {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button {
+  padding: 3rem;
+  font-size: large;
+}
+
+h3 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  height: 88vh;
+}
+
+.modal {
+  background: white;
+  border: 1px solid cornflowerblue;
+  width: 50%;
+  height: 15vh;
+  padding: 2rem;
+  position: relative;
+}
+
+.inner-modal > h3 {
+  text-align: start;
+}
+
+
+
+.modal-button-container {
+  text-align: end;
+}
+
+.modal-button {
+  padding: 0.5rem 7rem;
+  font-size: large;
+  background-color: rgba(140, 137, 128, 0.286);
+  border: none;
+}
+
+.close {
+  position: absolute;
+  top: 8px;
+  right: 1rem;
+}
+
+.xmark{
+  background: transparent;
+  border: none;
+  font-size: larger;
+}
+.xmark:hover {
+  color: rgba(255, 0, 0, 0.466);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  opacity: 60%;
+}
+
+.button:hover {
+  background-color: rgba(0, 255, 255, 0.337);
+  border: 2px solid cornflowerblue;
+}
+
+button {
+  cursor: pointer;
+}
+
+.inner-modal {
+  margin: 1rem;
+}
+
+.button:active {
+  background-color: rgba(0, 255, 255, 0.615);
+}
+
+.modal-button:hover {
+  border: 2px ridge rgba(73, 72, 69, 0.822);
+}
+
+.modal-button:active {
+  border: 2px ridge rgb(73, 72, 69)
+}
+
+.f-w6 {
+  font-weight: 600;
+  text-align: center;
+}
+
+.xmark {
+  font-weight: 100;
+}

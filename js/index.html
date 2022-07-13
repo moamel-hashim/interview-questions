@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.1.1/css/all.css">
+  <title>The JavaScript Lottery</title>
+</head>
+
+<body>
+  <div class="overlay hidden"></div>
+  <div class="container">
+    <header>
+      <h1>the javaScript lottery</h1>
+    </header>
+    <main>
+      <h3>Click the button to draw a number</h3>
+      <div class="button-container">
+        <button class="button">Let's Play!</button>
+      </div>
+      <div>
+        <h3 class="random-number">your number: 0</h3>
+      </div>
+      <div>
+        <p class="f-w6">* Any number in the 1 to 1000 range wins!</p>
+      </div>
+      <div class="modal-container hidden">
+        <div class="modal">
+          <div class="close">
+            <button class="xmark">X</button>
+          </div>
+          <div class="inner-modal">
+            <h3>this site says...</h3>
+            <div class="lottery-win-lose">
+              <p></p>
+            </div>
+          </div>
+          <div class="modal-button-container">
+            <button class="modal-button">OK</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
